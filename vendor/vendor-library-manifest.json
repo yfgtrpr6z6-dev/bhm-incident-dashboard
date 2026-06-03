@@ -1,0 +1,34 @@
+{
+  "package": "BHM Incident Dashboard browser export libraries",
+  "purpose": "Local browser libraries used by dashboard export buttons.",
+  "libraries": [
+    {
+      "file": "exceljs.min.js",
+      "package": "exceljs",
+      "version": "4.4.0",
+      "purpose": "Excel export",
+      "sourceReference": "npm: exceljs@4.4.0 / dist/exceljs.min.js"
+    },
+    {
+      "file": "jspdf.umd.min.js",
+      "package": "jspdf",
+      "version": "2.5.1",
+      "purpose": "PDF export",
+      "sourceReference": "npm: jspdf@2.5.1 / dist/jspdf.umd.min.js"
+    },
+    {
+      "file": "pptxgen.bundle.js",
+      "package": "pptxgenjs",
+      "version": "3.12.0",
+      "purpose": "PowerPoint export",
+      "sourceReference": "npm: pptxgenjs@3.12.0 / dist/pptxgen.bundle.js"
+    },
+    {
+      "file": "html-to-image.js",
+      "package": "html-to-image",
+      "version": "1.11.13",
+      "purpose": "Image capture for PDF/PowerPoint export",
+      "sourceReference": "npm: html-to-image@1.11.13 / dist/html-to-image.js"
+    }
+  ]
+}
